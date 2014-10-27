@@ -22,7 +22,7 @@
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="21" implicit="yes" />
   <import index="555r" modelUID="r:01e7a735-c89c-4c96-8b5e-4c3cef4e77c0(com.mbeddr.cc.requirements.c2doc.structure)" version="-1" implicit="yes" />
   <import index="bfq5" modelUID="r:e7c57229-5d47-4e7d-8d68-d13912139230(com.mbeddr.cc.requirements.scenario2doc.structure)" version="-1" implicit="yes" />
-  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="8" implicit="yes" />
+  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="11" implicit="yes" />
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" implicit="yes" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="11" implicit="yes" />
   <import index="3vkx" modelUID="r:1c91fcc2-cf14-47f5-a4d4-3b424626f0d4(com.mbeddr.cc.requirements.c.structure)" version="8" implicit="yes" />
@@ -46,11 +46,11 @@
         </node>
       </node>
       <node role="additionalData" roleId="75wo.8745401669463270518" type="6pek.WorkPackage" typeId="6pek.8587612447638802592" id="3340584831013385754" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="inital" />
+        <property name="name" nameId="tpck.1169194664001" value="initial" />
         <property name="scope" nameId="6pek.3411780537800178873" value="1" />
         <property name="effort" nameId="6pek.8587612447638802594" value="1" />
-        <property name="priority" nameId="6pek.4989385012827211613" value="1" />
-        <property name="responsible" nameId="6pek.3411780537800178874" value="peter" />
+        <property name="priority" nameId="6pek.4989385012827211613" value="2" />
+        <property name="responsible" nameId="6pek.3411780537800178874" value="itemis" />
         <node role="description" roleId="6pek.8587612447638802618" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="3340584831013385755" nodeInfo="ng">
           <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="3340584831013385756" nodeInfo="ng">
             <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="3340584831013385757" nodeInfo="ng" />
@@ -76,13 +76,13 @@
         </node>
       </node>
       <node role="additionalData" roleId="75wo.8745401669463270518" type="6pek.WorkPackage" typeId="6pek.8587612447638802592" id="8765685756424593973" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="impl1" />
+        <property name="name" nameId="tpck.1169194664001" value="implementation1" />
         <property name="scope" nameId="6pek.3411780537800178873" value="1" />
         <property name="effort" nameId="6pek.8587612447638802594" value="10" />
         <property name="seenByCustomer" nameId="6pek.3411780537799825607" value="true" />
         <property name="acceptedByCustomer" nameId="6pek.3411780537799825608" value="true" />
-        <property name="priority" nameId="6pek.4989385012827211613" value="1" />
-        <property name="responsible" nameId="6pek.3411780537800178874" value="peter" />
+        <property name="priority" nameId="6pek.4989385012827211613" value="2" />
+        <property name="responsible" nameId="6pek.3411780537800178874" value="itemis" />
         <node role="description" roleId="6pek.8587612447638802618" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="8765685756424593974" nodeInfo="ng">
           <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="8765685756424593977" nodeInfo="ng">
             <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="8765685756424593978" nodeInfo="ng">
@@ -96,11 +96,11 @@
         </node>
       </node>
       <node role="additionalData" roleId="75wo.8745401669463270518" type="6pek.WorkPackage" typeId="6pek.8587612447638802592" id="8765685756424593980" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="impl2" />
-        <property name="scope" nameId="6pek.3411780537800178873" value="2" />
+        <property name="name" nameId="tpck.1169194664001" value="implementation2" />
+        <property name="scope" nameId="6pek.3411780537800178873" value="1" />
         <property name="effort" nameId="6pek.8587612447638802594" value="5" />
         <property name="priority" nameId="6pek.4989385012827211613" value="1" />
-        <property name="responsible" nameId="6pek.3411780537800178874" value="peter" />
+        <property name="responsible" nameId="6pek.3411780537800178874" value="itemis" />
         <node role="description" roleId="6pek.8587612447638802618" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="8765685756424593981" nodeInfo="ng">
           <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="8765685756424593984" nodeInfo="ng">
             <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="8765685756424593985" nodeInfo="ng">
@@ -149,7 +149,7 @@
         <property name="effort" nameId="6pek.8587612447638802594" value="3" />
         <property name="seenByCustomer" nameId="6pek.3411780537799825607" value="true" />
         <property name="priority" nameId="6pek.4989385012827211613" value="1" />
-        <property name="responsible" nameId="6pek.3411780537800178874" value="adam" />
+        <property name="responsible" nameId="6pek.3411780537800178874" value="itemis" />
         <node role="description" roleId="6pek.8587612447638802618" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="8765685756424593989" nodeInfo="ng">
           <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="8765685756424593990" nodeInfo="ng">
             <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="8765685756424593991" nodeInfo="ng" />
@@ -536,7 +536,7 @@
         </node>
         <node role="additionalData" roleId="75wo.8745401669463270518" type="6pek.WorkPackage" typeId="6pek.8587612447638802592" id="8765685756424594000" nodeInfo="ng">
           <property name="scope" nameId="6pek.3411780537800178873" value="1" />
-          <property name="name" nameId="tpck.1169194664001" value="impl" />
+          <property name="name" nameId="tpck.1169194664001" value="details1" />
           <property name="effort" nameId="6pek.8587612447638802594" value="3" />
           <property name="priority" nameId="6pek.4989385012827211613" value="1" />
           <property name="responsible" nameId="6pek.3411780537800178874" value="itemis" />
@@ -570,11 +570,11 @@
           </node>
         </node>
         <node role="additionalData" roleId="75wo.8745401669463270518" type="6pek.WorkPackage" typeId="6pek.8587612447638802592" id="8765685756424594008" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="impl" />
+          <property name="name" nameId="tpck.1169194664001" value="details2" />
           <property name="scope" nameId="6pek.3411780537800178873" value="1" />
           <property name="effort" nameId="6pek.8587612447638802594" value="4" />
           <property name="priority" nameId="6pek.4989385012827211613" value="1" />
-          <property name="responsible" nameId="6pek.3411780537800178874" value="alan" />
+          <property name="responsible" nameId="6pek.3411780537800178874" value="itemis" />
           <node role="description" roleId="6pek.8587612447638802618" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="8765685756424594009" nodeInfo="ng">
             <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="8765685756424594012" nodeInfo="ng">
               <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="8765685756424594013" nodeInfo="ng">
@@ -2304,89 +2304,91 @@
     <node role="assessments" roleId="vs0r.865293814733114045" type="vs0r.Assessment" typeId="vs0r.865293814733114044" id="2736283313833546257" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="workpackages" />
       <property name="sorted" nameId="vs0r.8691429746170824734" value="true" />
-      <property name="lastUpdatedOn" nameId="vs0r.4423545983997782838" value="1414181476700" />
+      <property name="lastUpdatedOn" nameId="vs0r.4423545983997782838" value="1414422633965" />
       <property name="lastUdpatedBy" nameId="vs0r.4423545983997787056" value="szabta" />
-      <node role="query" roleId="vs0r.865293814733115677" type="6pek.WorkPackagesAssQuery" typeId="6pek.8587612447638829939" id="2736283313833546265" nodeInfo="ng">
+      <node role="query" roleId="vs0r.865293814733115677" type="6pek.WorkPackagesAssessmentQuery" typeId="6pek.8587612447638829939" id="2736283313833546265" nodeInfo="ng">
+        <property name="company" nameId="6pek.8587612447638829941" value="itemis" />
+        <property name="scope" nameId="6pek.8587612447638829940" value="1" />
         <property name="prio" nameId="6pek.6473263424708355244" value="1" />
       </node>
-      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="2736283313833546424" nodeInfo="ng">
+      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="6709631479116406253" nodeInfo="ng">
         <property name="isNew" nameId="vs0r.2711621784018180488" value="true" />
-        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414181476695" />
-        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="2736283313833546425" nodeInfo="ng">
-          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="2736283313833546426" nodeInfo="ng">
-            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2736283313833546427" nodeInfo="ng" />
+        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414422633947" />
+        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="6709631479116406254" nodeInfo="ng">
+          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="6709631479116406255" nodeInfo="ng">
+            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="6709631479116406256" nodeInfo="ng" />
           </node>
         </node>
-        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssResult" typeId="6pek.8587612447638829963" id="2736283313833546409" nodeInfo="ng">
-          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424594000" resolveInfo="impl" />
+        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssessmentResult" typeId="6pek.8587612447638829963" id="6709631479116406241" nodeInfo="ng">
+          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424594000" resolveInfo="details1" />
         </node>
       </node>
-      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="2736283313833546420" nodeInfo="ng">
+      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="6709631479116406257" nodeInfo="ng">
         <property name="isNew" nameId="vs0r.2711621784018180488" value="true" />
-        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414181476695" />
-        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="2736283313833546421" nodeInfo="ng">
-          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="2736283313833546422" nodeInfo="ng">
-            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2736283313833546423" nodeInfo="ng" />
+        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414422633948" />
+        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="6709631479116406258" nodeInfo="ng">
+          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="6709631479116406259" nodeInfo="ng">
+            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="6709631479116406260" nodeInfo="ng" />
           </node>
         </node>
-        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssResult" typeId="6pek.8587612447638829963" id="2736283313833546408" nodeInfo="ng">
-          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424594008" resolveInfo="impl" />
+        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssessmentResult" typeId="6pek.8587612447638829963" id="6709631479116406243" nodeInfo="ng">
+          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424594008" resolveInfo="details2" />
         </node>
       </node>
-      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="2736283313833546432" nodeInfo="ng">
-        <property name="isNew" nameId="vs0r.2711621784018180488" value="true" />
-        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414181476696" />
-        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="2736283313833546433" nodeInfo="ng">
-          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="2736283313833546434" nodeInfo="ng">
-            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2736283313833546435" nodeInfo="ng" />
+      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="6709631479114688998" nodeInfo="ng">
+        <property name="isNew" nameId="vs0r.2711621784018180488" value="false" />
+        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414422633948" />
+        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="6709631479114688999" nodeInfo="ng">
+          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="6709631479114689000" nodeInfo="ng">
+            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="6709631479114689001" nodeInfo="ng" />
           </node>
         </node>
-        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssResult" typeId="6pek.8587612447638829963" id="2736283313833546411" nodeInfo="ng">
-          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="3340584831013385754" resolveInfo="inital" />
+        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssessmentResult" typeId="6pek.8587612447638829963" id="6709631479114688997" nodeInfo="ng">
+          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="3340584831013385754" resolveInfo="initial" />
         </node>
       </node>
-      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="2736283313833546416" nodeInfo="ng">
+      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="6709631479116406245" nodeInfo="ng">
         <property name="isNew" nameId="vs0r.2711621784018180488" value="true" />
-        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414181476695" />
-        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="2736283313833546417" nodeInfo="ng">
-          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="2736283313833546418" nodeInfo="ng">
-            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2736283313833546419" nodeInfo="ng" />
+        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414422633945" />
+        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="6709631479116406246" nodeInfo="ng">
+          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="6709631479116406247" nodeInfo="ng">
+            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="6709631479116406248" nodeInfo="ng" />
           </node>
         </node>
-        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssResult" typeId="6pek.8587612447638829963" id="2736283313833546407" nodeInfo="ng">
+        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssessmentResult" typeId="6pek.8587612447638829963" id="6709631479116406239" nodeInfo="ng">
           <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424593988" resolveInfo="prototype" />
         </node>
       </node>
-      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="2736283313833546428" nodeInfo="ng">
-        <property name="isNew" nameId="vs0r.2711621784018180488" value="true" />
-        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414181476695" />
-        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="2736283313833546429" nodeInfo="ng">
-          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="2736283313833546430" nodeInfo="ng">
-            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2736283313833546431" nodeInfo="ng" />
+      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="6709631479114696505" nodeInfo="ng">
+        <property name="isNew" nameId="vs0r.2711621784018180488" value="false" />
+        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414422633948" />
+        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="6709631479114696506" nodeInfo="ng">
+          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="6709631479114696507" nodeInfo="ng">
+            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="6709631479114696508" nodeInfo="ng" />
           </node>
         </node>
-        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssResult" typeId="6pek.8587612447638829963" id="2736283313833546410" nodeInfo="ng">
-          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424593973" resolveInfo="impl1" />
+        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssessmentResult" typeId="6pek.8587612447638829963" id="6709631479114696503" nodeInfo="ng">
+          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424593973" resolveInfo="implementation1" />
         </node>
       </node>
-      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="2736283313833546412" nodeInfo="ng">
+      <node role="results" roleId="vs0r.865293814733118687" type="vs0r.AssessmentResultEntry" typeId="vs0r.865293814733118686" id="6709631479116406249" nodeInfo="ng">
         <property name="isNew" nameId="vs0r.2711621784018180488" value="true" />
-        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414181476694" />
-        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="2736283313833546413" nodeInfo="ng">
-          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="2736283313833546414" nodeInfo="ng">
-            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="2736283313833546415" nodeInfo="ng" />
+        <property name="lastFound" nameId="vs0r.6619757161337247129" value="1414422633947" />
+        <node role="comment" roleId="vs0r.6619757161337461931" type="vs0r.TextBlock" typeId="vs0r.8375407818529178006" id="6709631479116406250" nodeInfo="ng">
+          <node role="text" roleId="vs0r.8375407818529178007" type="87nw.Text" typeId="87nw.2557074442922380897" id="6709631479116406251" nodeInfo="ng">
+            <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="6709631479116406252" nodeInfo="ng" />
           </node>
         </node>
-        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssResult" typeId="6pek.8587612447638829963" id="2736283313833546406" nodeInfo="ng">
-          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424593980" resolveInfo="impl2" />
+        <node role="result" roleId="vs0r.865293814733133843" type="6pek.WorkPackagesAssessmentResult" typeId="6pek.8587612447638829963" id="6709631479116406240" nodeInfo="ng">
+          <link role="wp" roleId="6pek.8587612447638829970" targetNodeId="8765685756424593980" resolveInfo="implementation2" />
         </node>
       </node>
-      <node role="summaries" roleId="vs0r.671216505796427450" type="vs0r.DefaultAssessmentSummary" typeId="vs0r.671216505796623802" id="2736283313833546437" nodeInfo="ng">
+      <node role="summaries" roleId="vs0r.671216505796427450" type="vs0r.DefaultAssessmentSummary" typeId="vs0r.671216505796623802" id="6709631479116406262" nodeInfo="ng">
         <property name="totalCount" nameId="vs0r.671216505796623805" value="6" />
-        <property name="newlyAdded" nameId="vs0r.671216505796623807" value="6" />
+        <property name="newlyAdded" nameId="vs0r.671216505796623807" value="4" />
         <property name="ok" nameId="vs0r.671216505796623806" value="0" />
       </node>
-      <node role="summaries" roleId="vs0r.671216505796427450" type="6pek.WorkPackagesAssSummary" typeId="6pek.8587612447638833763" id="2736283313833546436" nodeInfo="ng">
+      <node role="summaries" roleId="vs0r.671216505796427450" type="6pek.WorkPackagesAssessmentSummary" typeId="6pek.8587612447638833763" id="6709631479116406261" nodeInfo="ng">
         <property name="estimatedEffort" nameId="6pek.8587612447638833766" value="26" />
         <property name="actualEffort" nameId="6pek.2668975618728492244" value="18" />
       </node>

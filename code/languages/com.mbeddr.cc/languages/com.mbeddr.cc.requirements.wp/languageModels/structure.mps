@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="8">
+<model modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="11">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -7,7 +7,7 @@
   <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="25" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="8" implicit="yes" />
+  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="11" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="882101644643504929" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="HasEffortFilter" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="requirements that have estimated effort" />
@@ -65,7 +65,7 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8587612447638829939" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="WorkPackagesAssQuery" />
+    <property name="name" nameId="tpck.1169194664001" value="WorkPackagesAssessmentQuery" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="wp" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="workpackages" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="vs0r.865293814733115675" resolveInfo="AssessmentQuery" />
@@ -92,7 +92,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8587612447638829963" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="wp" />
-    <property name="name" nameId="tpck.1169194664001" value="WorkPackagesAssResult" />
+    <property name="name" nameId="tpck.1169194664001" value="WorkPackagesAssessmentResult" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="vs0r.865293814733133833" resolveInfo="AssessmentResult" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8587612447638829970" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -103,7 +103,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8587612447638833763" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="wp" />
-    <property name="name" nameId="tpck.1169194664001" value="WorkPackagesAssSummary" />
+    <property name="name" nameId="tpck.1169194664001" value="WorkPackagesAssessmentSummary" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="vs0r.671216505796427448" resolveInfo="AssessmentSummary" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8587612447638833766" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="estimatedEffort" />

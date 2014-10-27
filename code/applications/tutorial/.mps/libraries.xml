@@ -15,7 +15,7 @@
           <value>
             <Library>
               <option name="name" value="mps.incquery" />
-              <option name="path" value="${mps.incquery}" />
+              <option name="path" value="$PROJECT_DIR$/../../../../MPS-IncQuery" />
             </Library>
           </value>
         </entry>

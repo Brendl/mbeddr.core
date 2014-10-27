@@ -13,7 +13,7 @@
   <language namespace="120e1c9d-4e27-4478-b2af-b2c3bd3850b0(com.mbeddr.mpsutil.editor.querylist)" />
   <language namespace="f89904fb-9486-43a1-865e-5ad0375a8a88(de.itemis.mps.editor.bool)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="8" />
+  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="11" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="p15z" modelUID="r:ac36bf27-36e9-407d-ba8e-953c68088e41(com.mbeddr.mpsutil.blutil.behavior)" version="2" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -427,7 +427,7 @@
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8587612447638829944" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="wp" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pek.8587612447638829939" resolveInfo="WorkPackagesAssQuery" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pek.8587612447638829939" resolveInfo="WorkPackagesAssessmentQuery" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5325627769492945769" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="5325627769492945770" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8587612447638829947" nodeInfo="nn">
@@ -504,7 +504,7 @@
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8587612447638829964" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="wp" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pek.8587612447638829963" resolveInfo="WorkPackagesAssResult" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pek.8587612447638829963" resolveInfo="WorkPackagesAssessmentResult" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5325627769493911552" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="5325627769493911553" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="bbp5.CellModel_QueryList" typeId="bbp5.6202678563380233810" id="5325627769492322786" nodeInfo="ng">
@@ -553,7 +553,7 @@
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5325627769493925044" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5325627769493934497" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="5325627769493933355" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="6pek.8587612447638829939" resolveInfo="WorkPackagesAssQuery" />
+                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="6pek.8587612447638829939" resolveInfo="WorkPackagesAssessmentQuery" />
                   <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5325627769493928205" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5325627769493925362" nodeInfo="nn">
                       <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="5325627769493925043" nodeInfo="nn" />
@@ -1046,7 +1046,7 @@
               <node role="expression" roleId="tpee.1068580123156" type="tpee.NotExpression" typeId="tpee.1081516740877" id="5325627769493969491" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5325627769493969493" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="5325627769493969494" nodeInfo="nn">
-                    <link role="concept" roleId="tp25.1140138128738" targetNodeId="6pek.8587612447638829939" resolveInfo="WorkPackagesAssQuery" />
+                    <link role="concept" roleId="tp25.1140138128738" targetNodeId="6pek.8587612447638829939" resolveInfo="WorkPackagesAssessmentQuery" />
                     <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5325627769493969495" nodeInfo="nn">
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5325627769493969496" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="5325627769493969497" nodeInfo="nn" />
@@ -1076,7 +1076,7 @@
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8587612447638833764" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="wp" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pek.8587612447638833763" resolveInfo="WorkPackagesAssSummary" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6pek.8587612447638833763" resolveInfo="WorkPackagesAssessmentSummary" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8587612447638833768" nodeInfo="nn">
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8587612447638833769" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8587612447638833767" nodeInfo="nn">
