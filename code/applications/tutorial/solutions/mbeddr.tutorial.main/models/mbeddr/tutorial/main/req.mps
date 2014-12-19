@@ -22,7 +22,7 @@
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="21" implicit="yes" />
   <import index="555r" modelUID="r:01e7a735-c89c-4c96-8b5e-4c3cef4e77c0(com.mbeddr.cc.requirements.c2doc.structure)" version="-1" implicit="yes" />
   <import index="bfq5" modelUID="r:e7c57229-5d47-4e7d-8d68-d13912139230(com.mbeddr.cc.requirements.scenario2doc.structure)" version="-1" implicit="yes" />
-  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="11" implicit="yes" />
+  <import index="6pek" modelUID="r:f4cb7d35-a323-48d6-ad03-3ebdeae26d42(com.mbeddr.cc.requirements.wp.structure)" version="12" implicit="yes" />
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" implicit="yes" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="11" implicit="yes" />
   <import index="3vkx" modelUID="r:1c91fcc2-cf14-47f5-a4d4-3b424626f0d4(com.mbeddr.cc.requirements.c.structure)" version="8" implicit="yes" />
@@ -2306,7 +2306,7 @@
       <property name="sorted" nameId="vs0r.8691429746170824734" value="true" />
       <property name="lastUpdatedOn" nameId="vs0r.4423545983997782838" value="1414422633965" />
       <property name="lastUdpatedBy" nameId="vs0r.4423545983997787056" value="szabta" />
-      <node role="query" roleId="vs0r.865293814733115677" type="6pek.WorkPackagesAssessmentQuery" typeId="6pek.8587612447638829939" id="2736283313833546265" nodeInfo="ng">
+      <node role="query" roleId="vs0r.865293814733115677" type="6pek.WorkPackagesAssessmentReport" typeId="6pek.8587612447638829939" id="2736283313833546265" nodeInfo="ng">
         <property name="company" nameId="6pek.8587612447638829941" value="itemis" />
         <property name="scope" nameId="6pek.8587612447638829940" value="1" />
         <property name="prio" nameId="6pek.6473263424708355244" value="1" />
