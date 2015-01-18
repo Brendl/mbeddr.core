@@ -19,6 +19,14 @@
             </Library>
           </value>
         </entry>
+        <entry key="mbeddr.github.core.home">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.github.core.home" />
+              <option name="path" value="$PROJECT_DIR$/../../.." />
+            </Library>
+          </value>
+        </entry>
         <entry key="mbeddr.mpsutil">
           <value>
             <Library>

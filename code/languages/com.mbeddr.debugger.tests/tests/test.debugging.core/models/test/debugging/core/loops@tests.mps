@@ -15,16 +15,15 @@
   <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" implicit="yes" />
   <import index="tp5g" modelUID="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" version="40" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="26" implicit="yes" />
+  <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="25" implicit="yes" />
   <import index="yq40" modelUID="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" version="5" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="21" implicit="yes" />
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" implicit="yes" />
   <import index="yz9a" modelUID="r:734c02dd-cc16-4184-99eb-5fd9f43aa37e(com.mbeddr.core.unittest.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="36" implicit="yes" />
+  <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="35" implicit="yes" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="11" implicit="yes" />
-  <import index="rpmx" modelUID="r:64720d49-3cb5-4469-81c5-0c62eda0a2cb(com.mbeddr.core.debug.test.structure)" version="100" implicit="yes" />
-  <import index="q9ah" modelUID="r:881cd106-b9c3-33d3-8c69-9a76f591f92a(com.mbeddr.debugger.tests.__spreferences.PlatformTemplates)" version="-1" implicit="yes" />
+  <import index="rpmx" modelUID="r:64720d49-3cb5-4469-81c5-0c62eda0a2cb(com.mbeddr.core.debug.test.structure)" version="96" implicit="yes" />
   <root type="51wr.BuildConfiguration" typeId="51wr.7717755763392524104" id="5710167937131566969" nodeInfo="ng">
     <node role="binaries" roleId="51wr.5046689135694070731" type="51wr.Executable" typeId="51wr.5046689135693761554" id="5710167937131566970" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="LoopsTest" />
@@ -33,16 +32,17 @@
         <link role="module" roleId="51wr.7717755763392524108" targetNodeId="5710167937131567141" resolveInfo="LoopsTest" />
       </node>
     </node>
+    <node role="target" roleId="51wr.5323740605968447026" type="51wr.DesktopPlatform" typeId="51wr.5323740605968447022" id="5710167937131566972" nodeInfo="ng">
+      <property name="compiler" nameId="51wr.5323740605968447024" value="gcc" />
+      <property name="compilerOptions" nameId="51wr.5323740605968447025" value="-std=c99" />
+      <property name="debugOptions" nameId="51wr.2736179788492003937" value="-g" />
+    </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="5710167937131566973" nodeInfo="ng">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="5710167937131566974" nodeInfo="ng" />
-    </node>
-    <node role="target" roleId="51wr.5323740605968447026" type="51wr.PlatformReference" typeId="51wr.8719112291175211294" id="7476948223417588961" nodeInfo="ng">
-      <link role="template" roleId="51wr.8719112291175211414" targetNodeId="q9ah.8589448133356038649" resolveInfo="Desktop Platform" />
     </node>
   </root>
   <root type="rpmx.DebuggerTest" typeId="rpmx.7048220250905867886" id="5710167937131566975" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DoWhile" />
-    <node role="debuggerBackend" roleId="rpmx.6289137936867385367" type="rpmx.GdbDebuggerBackend" typeId="rpmx.6289137936867337325" id="6289137936877190456" nodeInfo="ng" />
     <node role="binaryRef" roleId="rpmx.5100083648679329380" type="rpmx.BinaryRef" typeId="rpmx.5100083648679329379" id="5710167937131566976" nodeInfo="ng">
       <link role="binary" roleId="rpmx.7048220250906128789" targetNodeId="5710167937131566970" resolveInfo="LoopsTest" />
     </node>
@@ -95,21 +95,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774153148" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131566998" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123599652888" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567340" resolveInfo="stmntAfter3rdWhile" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="1647692136265872161" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="1647692136265858288" resolveInfo="conditionOfNested3rdWhile" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774175889" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225155432" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225156156" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225156157" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="6181369419122885280" resolveInfo="breakOf3rdWhile" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="6181369419122851735" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419122885283" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="6181369419122885280" resolveInfo="breakOf3rdWhile" />
@@ -181,14 +172,6 @@
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774175856" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225157591" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225157601" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225157602" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567381" resolveInfo="conditionOfFirstDoWhile" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="6181369419122834041" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419122834047" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567381" resolveInfo="conditionOfFirstDoWhile" />
@@ -268,7 +251,6 @@
   </root>
   <root type="rpmx.DebuggerTest" typeId="rpmx.7048220250905867886" id="5710167937131567055" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ForStatement" />
-    <node role="debuggerBackend" roleId="rpmx.6289137936867385367" type="rpmx.GdbDebuggerBackend" typeId="rpmx.6289137936867337325" id="6289137936877190936" nodeInfo="ng" />
     <node role="binaryRef" roleId="rpmx.5100083648679329380" type="rpmx.BinaryRef" typeId="rpmx.5100083648679329379" id="5710167937131567056" nodeInfo="ng">
       <link role="binary" roleId="rpmx.7048220250906128789" targetNodeId="5710167937131566970" resolveInfo="LoopsTest" />
     </node>
@@ -290,21 +272,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774157123" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567065" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123599696045" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567239" resolveInfo="1stStmntInside4thFor" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="1647692136274306960" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567247" resolveInfo="forInside4thForWithoutCondition" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774175922" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225157607" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225157615" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225157616" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567239" resolveInfo="1stStmntInside4thFor" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="6181369419122886138" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419122918951" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567239" resolveInfo="1stStmntInside4thFor" />
@@ -340,21 +313,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774156224" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567075" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123599771613" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567239" resolveInfo="1stStmntInside4thFor" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="5295922437137206033" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5295922437137189632" resolveInfo="2ndStmntInside4thFor" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774175955" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225157619" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225157629" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225157630" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="6181369419122936491" resolveInfo="breakIn4thFor" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="6181369419122919777" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419122936494" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="6181369419122936491" resolveInfo="breakIn4thFor" />
@@ -1096,15 +1060,15 @@
           </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="yz9a.AssertStatement" typeId="yz9a.6275792049641587287" id="5295922437135626007" nodeInfo="ng">
-          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="rpmx.MarkerAnnotation" typeId="rpmx.4193597469137492628" id="317989123607337780" nodeInfo="ng">
-            <property name="name" nameId="tpck.1169194664001" value="stmntAfter4thWhile" />
-          </node>
           <node role="expr" roleId="yz9a.6275792049641587288" type="mj1l.EqualsExpression" typeId="mj1l.8860443239512129322" id="5710167937131567358" nodeInfo="ng">
             <node role="right" roleId="mj1l.8860443239512128065" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="5710167937131567359" nodeInfo="ng">
               <property name="value" nameId="mj1l.2212975673976043696" value="0" />
             </node>
             <node role="left" roleId="mj1l.8860443239512128064" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="5710167937131567360" nodeInfo="ng">
               <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="5710167937131567342" resolveInfo="k" />
+            </node>
+            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="rpmx.MarkerAnnotation" typeId="rpmx.4193597469137492628" id="5295922437135619401" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="stmntAfter4thWhile" />
             </node>
           </node>
         </node>
@@ -1410,7 +1374,6 @@
   </root>
   <root type="rpmx.DebuggerTest" typeId="rpmx.7048220250905867886" id="5710167937131567520" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="While" />
-    <node role="debuggerBackend" roleId="rpmx.6289137936867385367" type="rpmx.GdbDebuggerBackend" typeId="rpmx.6289137936867337325" id="6289137936877190724" nodeInfo="ng" />
     <node role="binaryRef" roleId="rpmx.5100083648679329380" type="rpmx.BinaryRef" typeId="rpmx.5100083648679329379" id="5710167937131567521" nodeInfo="ng">
       <link role="binary" roleId="rpmx.7048220250906128789" targetNodeId="5710167937131566970" resolveInfo="LoopsTest" />
     </node>
@@ -1440,21 +1403,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774156500" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567531" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123599804107" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="1647692136265858288" resolveInfo="conditionOfNested3rdWhile" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="5295922437138384186" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567331" resolveInfo="nested3rdWhile" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774175988" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225158361" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225158369" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225158370" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="1647692136265858288" resolveInfo="conditionOfNested3rdWhile" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567534" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="5710167937131567535" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="1647692136265858288" resolveInfo="conditionOfNested3rdWhile" />
@@ -1516,21 +1470,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774154289" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567554" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123614112486" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="317989123607337780" resolveInfo="stmntAfter4thWhile" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="5295922437138384225" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567356" resolveInfo="4thWhile" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774176021" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225158393" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225158403" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225158404" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567356" resolveInfo="4thWhile" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567557" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419122937244" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567356" resolveInfo="4thWhile" />
@@ -1618,21 +1563,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774156620" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567587" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123599908377" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567340" resolveInfo="stmntAfter3rdWhile" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="5295922437135642634" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="1647692136265858288" resolveInfo="conditionOfNested3rdWhile" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774176054" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225158407" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225158417" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225158418" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="6181369419122885280" resolveInfo="breakOf3rdWhile" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="6181369419122938080" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419122987010" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="6181369419122885280" resolveInfo="breakOf3rdWhile" />
@@ -1672,21 +1608,12 @@
         <node role="validations" roleId="rpmx.4360423713604419402" type="rpmx.OnPlatform" typeId="rpmx.5641871277849447479" id="8548777266774154100" nodeInfo="ng">
           <property name="platform" nameId="rpmx.5641871277852618466" value="mac" />
           <node role="children" roleId="rpmx.5641871277849477942" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567597" nodeInfo="ng">
-            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="317989123614112484" nodeInfo="ng">
-              <property name="name" nameId="rpmx.105850086903157559" value="marker" />
-              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="317989123607337780" resolveInfo="stmntAfter4thWhile" />
+            <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="5295922437138393306" nodeInfo="ng">
+              <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567356" resolveInfo="4thWhile" />
             </node>
           </node>
           <node role="elseOnPart" roleId="rpmx.5641871277850143726" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8548777266774176087" nodeInfo="ng">
             <property name="platform" nameId="rpmx.5641871277852618466" value="nux" />
-            <node role="elseOn" roleId="rpmx.5641871277850163791" type="rpmx.ElseOnPlatform" typeId="rpmx.5641871277850133578" id="8291815659225158421" nodeInfo="ng">
-              <property name="platform" nameId="rpmx.5641871277852618466" value="win" />
-              <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="8291815659225158431" nodeInfo="ng">
-                <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="8291815659225158432" nodeInfo="ng">
-                  <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567356" resolveInfo="4thWhile" />
-                </node>
-              </node>
-            </node>
             <node role="children" roleId="rpmx.5641871277850143723" type="rpmx.ValidateDebuggerSuspended" typeId="rpmx.7048220250906049590" id="5710167937131567600" nodeInfo="ng">
               <node role="marker" roleId="rpmx.7048220250906049591" type="rpmx.MarkerRef" typeId="rpmx.4193597469137492644" id="6181369419123003906" nodeInfo="ng">
                 <link role="marker" roleId="rpmx.4193597469137492645" targetNodeId="5710167937131567356" resolveInfo="4thWhile" />
@@ -1732,7 +1659,6 @@
   </root>
   <root type="rpmx.DebuggerTest" typeId="rpmx.7048220250905867886" id="3853561535654484105" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="LoopsLibrary" />
-    <node role="debuggerBackend" roleId="rpmx.6289137936867385367" type="rpmx.GdbDebuggerBackend" typeId="rpmx.6289137936867337325" id="6289137936877191402" nodeInfo="ng" />
     <node role="contents" roleId="rpmx.5710167937130937944" type="rpmx.StackFramesDeclaration" typeId="rpmx.1218249513292774460" id="5710167937131566948" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="inDoWhileStatement" />
       <property name="exported" nameId="rpmx.8924761790439057805" value="true" />
