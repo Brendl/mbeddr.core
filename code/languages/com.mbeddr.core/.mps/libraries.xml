@@ -23,7 +23,7 @@
           <value>
             <Library>
               <option name="name" value="mbeddr.github.core.home" />
-              <option name="path" value="$PROJECT_DIR$/../../.." />
+              <option name="path" value="${mbeddr.github.core.home}" />
             </Library>
           </value>
         </entry>

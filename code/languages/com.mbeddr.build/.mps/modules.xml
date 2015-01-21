@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="${mbeddr.github.core.home}/code/plugins/mps-incquery/solutions/org.eclipse.incquery.mps.build/org.eclipse.incquery.mps.build.msd" folder="mps-incquery" />
       <modulePath path="${mbeddr.github.core.home}/code/plugins/sl-all/solutions/de.slisson.mps.all.build/de.slisson.mps.all.build.msd" folder="sl-all" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.allInOne/allInOne.msd" folder="rcp" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.allScripts/com.mbeddr.allScripts.msd" folder="build.scripts" />
